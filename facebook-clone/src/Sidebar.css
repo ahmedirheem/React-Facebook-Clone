@@ -1,0 +1,67 @@
+/* Start Nav Left Side */
+.Sidebar{
+    position: fixed;
+    left: 0;
+    top: 65px;
+    width: 20%;
+    min-width: 300px;
+    height: calc(100vh - 56px);
+    overflow-y: auto;
+    padding: 10px 0 0 10px
+}
+.SidebarRow{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 6px 15px 6px 15px;
+    margin: 5px auto;
+    border-radius: 7px;
+    cursor: pointer;
+    position: relative;
+    height: 30px;
+}
+.SidebarRow > div{
+    width: 25px;
+    height: 25px;
+}
+.SidebarRow > div > svg{
+    width: 20px;
+    height: 20px;
+}
+.SidebarRow:hover{
+    background-color: rgba(0,0,0,.03);
+}
+.SidebarRow p{
+    padding-left: 10px;
+    font-weight: 500;
+}
+.SidebarRow svg{
+    width: 25px !important;
+    -webkit-filter: invert(39%) sepia(57%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(147.75%) hue-rotate(202deg) brightness(97%) contrast(96%);
+    filter: invert(39%) sepia(57%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(200%) saturate(147.75%) hue-rotate(202deg) brightness(97%) contrast(96%);
+}
+.SidebarRow .main_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #E4E6EB;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.SidebarLinks{
+    padding: 5px;
+    display: block;
+    margin-bottom: 20px;
+}
+.SidebarLinks a{
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #65676B;
+    line-height: 18px;
+}
