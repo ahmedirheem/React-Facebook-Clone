@@ -1,0 +1,66 @@
+.Postsender{
+    width: 70%;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.1);
+}
+.top_post{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+}
+.top_post > form{
+    display: flex;
+    flex-grow: 1;
+}
+.top_post > form > input{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    background-color: #E4E6EB;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    pointer-events: all;
+}
+.top_post > form > input::placeholder{
+    font-size: 1.05rem;
+    line-height: 1.05rem;
+    color: #65676B;
+    font-weight: 300;
+}
+.top_post > form > input:hover{
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.top_post > form > button{
+    display: none;
+}
+.bottom_post{
+    padding-top: 5px;
+    display: flex;
+    gap: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom_post .post_option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    width: calc(100% / 3);
+}
+.post_option:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.post_option h3{
+    font-size: 1rem;
+    color: #65676B;
+    font-weight: 600;
+    margin-left: 10px;
+}
