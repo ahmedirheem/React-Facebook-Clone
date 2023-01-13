@@ -66,7 +66,7 @@ input[type="search"]::-webkit-search-cancel-button{
     align-items: center;
     justify-content: space-between;
     gap:10px;
-    padding-right: 20px;
+    padding-right: 32px;
 }
 .Header .header-avatar{
     margin: 0 4px;
