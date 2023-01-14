@@ -1,0 +1,194 @@
+/* Strat Aside Right Side */
+.Widget{
+    position: fixed;
+    right: 0;
+    top: 56px;
+    width: 23%;
+    /* flex: 0.25; */
+    /* min-width: 300px; */
+    height: calc(100vh - 56px);
+    overflow: auto;
+    padding: 5px 15px 5px 15px;
+}
+.Widget .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto
+}
+.Widget .head h3{
+    font-size: 1rem;
+    color: #000;
+    font-weight: 600;
+}
+.Widget .friends .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+.Widget .friends .title h3{
+    font-size: 1rem;
+    color: #000;
+    font-weight: 600;
+}
+.Widget .friends .title span{
+    color: #1876f2;
+    font-size: 0.85rem;
+    font-weight: 300;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+.Widget .friends .title span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.Widget .friends .title span:hover::before{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.Widget .friends .content{
+    display: flex;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.Widget .birthdays .content:hover,
+.Widget .friends .content:hover{
+    background-color: rgba(0,0,0,0.03);
+}
+
+.Widget .friends .info{
+    width: calc(100% - 60px);
+    margin-left: 15px;
+}
+.Widget .friends .info .name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Widget .friends .name h4{
+    font-size: 0.85;
+    font-weight: 600;
+}
+.Widget .friends .name span{
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: #65676B
+}
+.Widget .friends .mutual-friends{
+    display: flex;
+    align-items: center;
+}
+.Widget .friends .mutual-friends span{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #65676B;
+    margin-left: 5px;
+}
+.Widget .friends .buttons{
+    display: flex;
+    gap: 10px;
+    margin: 15px auto
+}
+.Widget .friends .buttons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    flex-grow: 1;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+.Widget .friends .buttons a.confirm{
+    background-color: #1876f2;
+    color: #fff
+}
+.Widget .friends .buttons a.delete{
+    background-color: #E4E6EB;
+    color: #000;
+    transition: 0.3s;
+}
+.Widget .friends .buttons a.delete:hover{
+    background-color: rgba(0,0,0,.0.2);
+}
+.Widget .birthdays h3{
+    font-size: 1rem;
+    color: #000;
+    font-weight: 600;
+    margin: 15px auto;
+}
+.Widget .birthdays .content{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.Widget .birthdays .content i{
+    padding-right: 30px;
+}
+.Widget .birthdays .content p{
+    font-size: 0.85rem;
+    font-weight: 400;
+    flex-grow: 1;
+    margin-left: 15px;
+    line-height: 22px;
+}
+.Widget .birthdays .content p span{
+    font-weight: 600;
+}
+.Widget .contacts .icons{
+    display: flex;
+    gap: 10px
+}
+.Widget .contacts .icons svg{
+    fill: #65676B
+}
+.Widget .contacts .Contact{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 15px 5px ;
+    margin: 5px auto;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.Widget .contacts .Contact:hover{
+    background-color: rgba(0,0,0,.05);
+}
+.Widget .contacts .image{
+    position: relative;
+}
+.Widget .contacts .active-circle{
+    position: absolute;
+    bottom: 3px;
+    right: 2px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    background-color: #31A24C;
+}
+.Widget h3{
+    font-size: 1rem;
+    color: #000;
+    font-weight: 400;
+    margin-left: 15px;
+}
+@media (max-width: 900px) {
+    .Widget{
+        display: none;
+    }
+}
