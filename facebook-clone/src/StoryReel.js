@@ -5,24 +5,24 @@ import Story from './Story'
 function StoryReel() {
     return (
         <div className='storyReel'>
-            <Story image='https://scontent.fgza2-3.fna.fbcdn.net/v/t39.30808-6/322382949_554918269881257_1433298775788974951_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=JDM_IAh_0cgAX_W8ng9&_nc_ht=scontent.fgza2-3.fna&oh=00_AfBtQHVSTbe3G4SKt7BMXcXdwjD9KugWRx3ff0bvx54PGg&oe=63C6184C'
-            profileSrc='https://scontent.fgza2-3.fna.fbcdn.net/v/t39.30808-6/321641337_6097153010295991_6055856874375425826_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Iu0Ud2eHrNQAX-1F8cx&_nc_ht=scontent.fgza2-3.fna&oh=00_AfBGzivGBWbi6OleFNVbVwWbaxWSvHMjLDdj6oZdYp8ErQ&oe=63C69759'
+            <Story image='https://scontent.fjrs24-1.fna.fbcdn.net/v/t39.30808-6/325935453_662712712295870_1274327430994856731_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=r1AuiZEIAsQAX9RSF9-&_nc_ht=scontent.fjrs24-1.fna&oh=00_AfDo_XMvQjJIsdgF72bTPivhM7pzfeXiLuoBXPFyYUBsKA&oe=63CF48F0'
+            profileSrc='https://scontent.fjrs24-1.fna.fbcdn.net/v/t39.30808-6/325935453_662712712295870_1274327430994856731_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=r1AuiZEIAsQAX9RSF9-&_nc_ht=scontent.fjrs24-1.fna&oh=00_AfDo_XMvQjJIsdgF72bTPivhM7pzfeXiLuoBXPFyYUBsKA&oe=63CF48F0'
             title='VAMOS BARÇA'
             />
-            <Story image='https://scontent.fgza2-3.fna.fbcdn.net/v/t39.30808-6/322382949_554918269881257_1433298775788974951_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=JDM_IAh_0cgAX_W8ng9&_nc_ht=scontent.fgza2-3.fna&oh=00_AfBtQHVSTbe3G4SKt7BMXcXdwjD9KugWRx3ff0bvx54PGg&oe=63C6184C'
-            profileSrc='https://scontent.fgza2-3.fna.fbcdn.net/v/t39.30808-6/321641337_6097153010295991_6055856874375425826_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Iu0Ud2eHrNQAX-1F8cx&_nc_ht=scontent.fgza2-3.fna&oh=00_AfBGzivGBWbi6OleFNVbVwWbaxWSvHMjLDdj6oZdYp8ErQ&oe=63C69759'
+            <Story image='https://scontent.fjrs24-1.fna.fbcdn.net/v/t39.30808-6/325935453_662712712295870_1274327430994856731_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=r1AuiZEIAsQAX9RSF9-&_nc_ht=scontent.fjrs24-1.fna&oh=00_AfDo_XMvQjJIsdgF72bTPivhM7pzfeXiLuoBXPFyYUBsKA&oe=63CF48F0'
+            profileSrc='https://scontent.fjrs24-1.fna.fbcdn.net/v/t39.30808-6/325935453_662712712295870_1274327430994856731_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=r1AuiZEIAsQAX9RSF9-&_nc_ht=scontent.fjrs24-1.fna&oh=00_AfDo_XMvQjJIsdgF72bTPivhM7pzfeXiLuoBXPFyYUBsKA&oe=63CF48F0'
             title='VAMOS BARÇA'
             />
-            <Story image='https://scontent.fgza2-3.fna.fbcdn.net/v/t39.30808-6/322382949_554918269881257_1433298775788974951_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=JDM_IAh_0cgAX_W8ng9&_nc_ht=scontent.fgza2-3.fna&oh=00_AfBtQHVSTbe3G4SKt7BMXcXdwjD9KugWRx3ff0bvx54PGg&oe=63C6184C'
-            profileSrc='https://scontent.fgza2-3.fna.fbcdn.net/v/t39.30808-6/321641337_6097153010295991_6055856874375425826_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Iu0Ud2eHrNQAX-1F8cx&_nc_ht=scontent.fgza2-3.fna&oh=00_AfBGzivGBWbi6OleFNVbVwWbaxWSvHMjLDdj6oZdYp8ErQ&oe=63C69759'
+            <Story image='https://scontent.fjrs24-1.fna.fbcdn.net/v/t39.30808-6/325935453_662712712295870_1274327430994856731_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=r1AuiZEIAsQAX9RSF9-&_nc_ht=scontent.fjrs24-1.fna&oh=00_AfDo_XMvQjJIsdgF72bTPivhM7pzfeXiLuoBXPFyYUBsKA&oe=63CF48F0'
+            profileSrc='https://scontent.fjrs24-1.fna.fbcdn.net/v/t39.30808-6/325935453_662712712295870_1274327430994856731_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=r1AuiZEIAsQAX9RSF9-&_nc_ht=scontent.fjrs24-1.fna&oh=00_AfDo_XMvQjJIsdgF72bTPivhM7pzfeXiLuoBXPFyYUBsKA&oe=63CF48F0'
             title='VAMOS BARÇA'
             />
-            <Story image='https://scontent.fgza2-3.fna.fbcdn.net/v/t39.30808-6/322382949_554918269881257_1433298775788974951_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=JDM_IAh_0cgAX_W8ng9&_nc_ht=scontent.fgza2-3.fna&oh=00_AfBtQHVSTbe3G4SKt7BMXcXdwjD9KugWRx3ff0bvx54PGg&oe=63C6184C'
-            profileSrc='https://scontent.fgza2-3.fna.fbcdn.net/v/t39.30808-6/321641337_6097153010295991_6055856874375425826_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Iu0Ud2eHrNQAX-1F8cx&_nc_ht=scontent.fgza2-3.fna&oh=00_AfBGzivGBWbi6OleFNVbVwWbaxWSvHMjLDdj6oZdYp8ErQ&oe=63C69759'
+            <Story image='https://scontent.fjrs24-1.fna.fbcdn.net/v/t39.30808-6/325935453_662712712295870_1274327430994856731_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=r1AuiZEIAsQAX9RSF9-&_nc_ht=scontent.fjrs24-1.fna&oh=00_AfDo_XMvQjJIsdgF72bTPivhM7pzfeXiLuoBXPFyYUBsKA&oe=63CF48F0'
+            profileSrc='https://scontent.fjrs24-1.fna.fbcdn.net/v/t39.30808-6/325935453_662712712295870_1274327430994856731_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=r1AuiZEIAsQAX9RSF9-&_nc_ht=scontent.fjrs24-1.fna&oh=00_AfDo_XMvQjJIsdgF72bTPivhM7pzfeXiLuoBXPFyYUBsKA&oe=63CF48F0'
             title='VAMOS BARÇA'
             />
-            <Story image='https://scontent.fgza2-3.fna.fbcdn.net/v/t39.30808-6/322382949_554918269881257_1433298775788974951_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=JDM_IAh_0cgAX_W8ng9&_nc_ht=scontent.fgza2-3.fna&oh=00_AfBtQHVSTbe3G4SKt7BMXcXdwjD9KugWRx3ff0bvx54PGg&oe=63C6184C'
-            profileSrc='https://scontent.fgza2-3.fna.fbcdn.net/v/t39.30808-6/321641337_6097153010295991_6055856874375425826_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Iu0Ud2eHrNQAX-1F8cx&_nc_ht=scontent.fgza2-3.fna&oh=00_AfBGzivGBWbi6OleFNVbVwWbaxWSvHMjLDdj6oZdYp8ErQ&oe=63C69759'
+            <Story image='https://scontent.fjrs24-1.fna.fbcdn.net/v/t39.30808-6/325935453_662712712295870_1274327430994856731_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=r1AuiZEIAsQAX9RSF9-&_nc_ht=scontent.fjrs24-1.fna&oh=00_AfDo_XMvQjJIsdgF72bTPivhM7pzfeXiLuoBXPFyYUBsKA&oe=63CF48F0'
+            profileSrc='https://scontent.fjrs24-1.fna.fbcdn.net/v/t39.30808-6/325935453_662712712295870_1274327430994856731_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=r1AuiZEIAsQAX9RSF9-&_nc_ht=scontent.fjrs24-1.fna&oh=00_AfDo_XMvQjJIsdgF72bTPivhM7pzfeXiLuoBXPFyYUBsKA&oe=63CF48F0'
             title='VAMOS BARÇA'
             />
         </div>

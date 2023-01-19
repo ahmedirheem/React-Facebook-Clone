@@ -1,10 +1,13 @@
 import { Avatar } from '@mui/material'
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import './Postsender.css'
 import {Videocam, InsertEmoticon, PhotoLibrary } from '@mui/icons-material'
 
-function Postsender() {
+import { Context } from "./ContextProvider";
 
+function Postsender() {
+    const {username, photo} = useContext(Context)
+    
     const [input, setInput] = useState('')
 
     const PostSubmit = (e) =>{
@@ -16,9 +19,9 @@ function Postsender() {
     return (
         <div className='Postsender'>
             <div className="top_post">
-                <Avatar src='https://scontent.fgza2-3.fna.fbcdn.net/v/t39.30808-6/299860806_3222269074709308_2530190862854621773_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Qya3ZrhB2YEAX88Iu5Y&_nc_ht=scontent.fgza2-3.fna&oh=00_AfBR0ygmjnUSx1FFL4RqZLjnbbNYE-PNASHg6Sw6YD4XXw&oe=63C61496'/>
+                <Avatar src={photo}/>
                 <form>
-                <input value={input} onChange={(e)=> setInput(e.target.value)} placeholder="What's on your mind, Ahmed?" />
+                <input value={input} onChange={(e)=> setInput(e.target.value)} placeholder={`What's on your mind, ${username}?`} />
                 <button type="submit" onClick={PostSubmit}>Hidden button</button>
                 </form>
             </div>

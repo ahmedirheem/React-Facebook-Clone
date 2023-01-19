@@ -1,8 +1,11 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import './Header.css'
 import { Avatar } from '@mui/material'
 
+import { Context } from "./ContextProvider";
+
 function Header() {
+    const { photo} = useContext(Context)
     return (
         <div className='Header'>
             <div className="header_left">
@@ -29,7 +32,7 @@ function Header() {
                 </div>
                 <div class="header-avatar">
                     <div class="image">
-                        <Avatar src='https://scontent.fgza2-3.fna.fbcdn.net/v/t39.30808-6/299860806_3222269074709308_2530190862854621773_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Qya3ZrhB2YEAX88Iu5Y&_nc_ht=scontent.fgza2-3.fna&oh=00_AfBR0ygmjnUSx1FFL4RqZLjnbbNYE-PNASHg6Sw6YD4XXw&oe=63C61496' />
+                        <Avatar src={photo} />
                     </div>
                     <span class="under-icon"><svg fill="currentColor" viewBox="0 0 16 16" width="1em" height="1em" class="b6ax4al1 m4pnbp5e somyomsx ahndzqod g8r5yzqk k250bvdn cv5aopd8"><g fill-rule="evenodd" transform="translate(-448 -544)"><path fill-rule="nonzero" d="M452.707 549.293a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L456 552.586l-3.293-3.293z"></path></g></svg></span>
                 </div>

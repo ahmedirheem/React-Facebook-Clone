@@ -1,0 +1,35 @@
+.Login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+}
+.Login .Logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Login .Logo img{
+    width: 120px;
+    margin-bottom: 100px;
+}
+.Login .Logo svg{
+    width: 150px;
+    fill: #2e81f4;
+}
+.Login button{
+    outline: none;
+    border: none;
+    width: 230px;
+    padding: 15px 30px;
+    background-color: #c6cacf;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.Login button:hover{
+    color: #fff;
+    background-color: #2e81f4;
+}

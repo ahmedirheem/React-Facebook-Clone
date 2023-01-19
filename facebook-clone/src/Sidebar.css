@@ -2,13 +2,12 @@
 .Sidebar{
     position: fixed;
     left: 0;
-    top: 65px;
+    top: 55px;
     width: 20%;
     min-width: 300px;
-    height: calc(100vh - 56px);
+    height: calc(100vh - 50px);
     overflow-y: auto;
-    padding: 20px 10px 0 10px;
-    /* flex: 0.33; */
+    padding: 10px 10px 0 10px;
 }
 .SidebarRow{
     display: flex;
