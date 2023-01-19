@@ -4,6 +4,9 @@ import './Postsender.css'
 import {Videocam, InsertEmoticon, PhotoLibrary } from '@mui/icons-material'
 
 import { Context } from "./ContextProvider";
+import db from './firebase'
+import firebase from 'firebase/compat/app';
+
 
 function Postsender() {
     const {username, photo} = useContext(Context)
@@ -12,6 +15,13 @@ function Postsender() {
 
     const PostSubmit = (e) =>{
         e.preventDefault();
+        
+        db.collection('posts').add({
+            message: input,
+            timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+            profilePic: photo,
+            username,
+        });
 
         setInput('');
     }

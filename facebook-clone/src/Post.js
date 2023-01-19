@@ -5,13 +5,14 @@ import React from 'react'
 import './Post.css'
 
 function Post({profilePic, image, username, timestamp, message}) {
-  return (
+    
+return (
     <div className='Post'>
         <div className="post_user_info">
             <Avatar src={profilePic}/>
             <div className="post_info_add">
                 <h3>{username}</h3>
-                <p>{timestamp}</p>
+                <p>{new Date(timestamp?.toDate()).toUTCString()}</p>
             </div>
             <MoreHorizIcon style={{color: 'grey'}}/>
         </div>
